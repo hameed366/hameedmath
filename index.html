@@ -5,6 +5,12 @@
 <meta name="google" content="notranslate">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-title" content="درجات الرياضيات">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#8055d9">
+
 <title>متابعة درجات الرياضيات</title>
 <style>
 :root{--bg:#f4f1fb;--card:#fff;--ink:#242039;--mut:#77728d;--line:#e4dff0;--pri:#302052;--acc:#8055d9;--ok:#168a72;--warn:#d99a22;--bad:#c94767;--chip:#eee7ff;
@@ -1491,5 +1497,6 @@ checkBkBar();
 
 load();renderCls();all();initCloud();
 </script>
+<script>try{if('serviceWorker' in navigator&&/^https?:/.test(location.protocol))window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))}catch(e){}</script>
 </body>
 </html>
